@@ -1,8 +1,21 @@
 # dmenu
 dmenu with custom patches
 
+Runtime Dependencies:
+- fontconfig
+- libXft
+
+Buildtime Dependencies:
+- pkg-config
+- fontconfig-devel
+- libXft-devel
+
 Patches:
-- Lineheight (https://tools.suckless.org/dmenu/patches/line-height/)
-- Center (https://tools.suckless.org/dmenu/patches/center/)
-- Prefix completion (https://tools.suckless.org/dmenu/patches/prefix-completion/)
-- Xyw (https://tools.suckless.org/dmenu/patches/xyw/)
+- border
+- fuzzyhighlight
+- fuzzymatch
+- scroll
+- caseinsensitive
+- listfullwidth
+- center
+- managed
